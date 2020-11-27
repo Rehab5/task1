@@ -1,0 +1,197 @@
+/*header*/
+body{
+    overflow-x: hidden;
+}
+.logo{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive, sans-serif , monospace;
+    font-size: 20px;
+     position:sticky;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo ul{
+    list-style: none;
+}
+.logo ul li{
+    display: inline;
+    padding: 10px;
+
+}
+.logo ul li a{
+    text-decoration: none;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/*Content*/
+.bg-img{
+    background: url(images/ECONOMICS.png) no-repeat ;
+    background-size:cover;
+    position: relative;
+    height: 350px;
+    width: 100%;  
+    
+}
+.text{
+    color: blue;
+    font-family: cursive, monospace;
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 400px;  
+}
+.bg-img .overlay{
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    height: 350px; 
+    width: 100%;    
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
+.sec2{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+.sec2 p{
+    font-family: sans-serif;
+    color: black;
+    overflow:scroll;
+    width:600px;
+    height: 200px;
+}
+.sec2 .action{
+    border-color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+}
+.sec2 .action:hover{
+    border: 5px groove orange;
+}
+.image {
+    position: relative;
+    width: 400px;
+    height: 300px;
+
+}
+.image img{
+    width: 400px;
+    height: 300px;
+    float: inherit;
+}
+.image .over-lay{
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    height: 300px; 
+    width: 400px; 
+}
+.image .paragrah p{
+    top: 100px;
+    left: 80px;
+    color: crimson;
+    text-shadow: 3px 3px 2px pink;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    overflow: hidden;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*lists*/
+.card-list{
+    display:flex;
+    justify-content: space-around;
+    background-color:white ;
+    padding-bottom: 50px;
+
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.card{
+    border: 2px solid #777;
+    box-shadow: 5px 3px blue;
+    border-radius: 30px;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.card p{
+    color: blue;
+    font-family: cursive; 
+    padding-right: 20px;
+}
+.card-title{
+    color: black;
+    text-align: center;
+    
+}
+.card-action {
+    width: 80px;
+    height: 40px;
+    border-color: white;
+    border-radius: 20px;
+    
+}
+.card-action:hover{
+    box-shadow: 4px 4px blue;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+    /*Footer*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.quick-links{
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive , fantasy, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.quick-links ul , .social-media ul{
+    list-style: none;
+}
+.quick-links ul li , .social-media ul li{
+    display: inline;
+    padding: 20px;
+}
+.quick-links ul li a{
+    text-decoration: none;
+}
+.social-media ul li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Rights{
+    justify-self: center;
+}
+.Rights p{
+    background-color: black;
+    text-align: center;
+    font-family: cursive ,monospace;
+    font-size: 40px;
+    color: aqua;
+    padding: 0;
+    margin: 0;
+}
